@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eVote", "eVote\eVote.csproj", "{FBB0F694-C500-453E-9383-87324866DE4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBB0F694-C500-453E-9383-87324866DE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB0F694-C500-453E-9383-87324866DE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB0F694-C500-453E-9383-87324866DE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB0F694-C500-453E-9383-87324866DE4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

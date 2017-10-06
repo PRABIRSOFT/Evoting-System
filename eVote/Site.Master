@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="eVote.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-position: center center; width: auto; height: auto; top: auto; right: auto; bottom: auto; left: auto; position: relative; z-index: auto; clip: rect(auto, auto, auto, auto); background-image: url('fyd.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
+    <form id="mainForm" runat="server" 
+    style="border: 1px solid #000000; clip: rect(auto, auto, auto, auto);">
+    <div>
+        <h1 style="border: thin solid #FFFFFF; background-color: #3366CC; font-family: 'Courier New', Courier, monospace; font-weight: bold; font-style: italic; color: #FFFFFF; clip: rect(auto, auto, auto, auto); overflow: auto">
+            <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" 
+                NavigateUrl="~/AdminPanel.aspx">eVote</asp:HyperLink>
+        </h1>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <div style="font-family: 'Times New Roman', Times, serif; font-size: small; font-weight: bold; color: #000000; background-color: #C0C0C0; border-style: solid; border-width: thin; clip: rect(auto, auto, auto, auto); overflow: auto; font-style: italic;" 
+        align="right">
+    Developed during ardent training
+    </div>
+</body>
+</html>
